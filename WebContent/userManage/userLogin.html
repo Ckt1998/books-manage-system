@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>用户登录</title>
+<style type="text/css">
+#userLogin{
+	text-align:center;
+	background-color:#FFD0A2;
+	border-radius: 20px; 
+	width: 320px; 
+	height: 300px; 
+	margin: auto; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+}
+</style>
+</head>
+<body background="pic/bg.jpg">
+<div id="userLogin">
+	<form method="post" action="userLoginCheck.jsp">
+	<p>&nbsp;</p>
+	<h1>用户登录</h1>
+	<center>
+	<table>
+		<tr><td>用户名：</td><td><input type="text" name="username"></td></tr>
+		<tr><td>用户密码：</td><td><input type="password" name="userpwd"></td></tr>
+		<tr><td colspan="2">
+		<br>
+			<input type="reset" value="重置">&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="登录">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">例如：“用户名：陈柯廷   密码：123”</td>
+		</tr>
+	</table>
+	</center>
+	</form>
+</div>
+</body>
+</html>

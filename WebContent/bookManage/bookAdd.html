@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>书籍添加</title>
+<style type="text/css">
+#bookAdd{
+	text-align:center;
+	background-color:#FFC68A;
+	border-radius: 20px; 
+	width: 460px; 
+	height: 400px; 
+	margin: auto; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+}
+</style>
+</head>
+<body background="pic/bg.jpg">
+<div id="bookAdd">
+	<form action="bookAddCheck.jsp" method="post">
+	<h2>书籍添加</h2><br>
+	<center>
+	<table>
+	
+		<tr><td>书名：</td><td><input type="text" name="bookname"></td></tr>
+		<tr><td>书籍分类：</td>
+			<td>
+				<select name="booktype"><option>地理人文</option><option>文学著作</option><option>教辅资料</option></select>
+			</td>
+		</tr>
+		<tr><td>作者：</td><td><input type="text" name="authorname"></td></tr>
+		<tr><td>书籍单价：</td><td><input type="text" name="bookprice"></td></tr>
+		<tr><td>书籍简介/描述：</td><td><textarea rows="8" cols="35" name="bookintroduction"></textarea></td></tr>
+		<tr><td colspan="2">
+			<br>
+			<input type="submit" value="添加">
+			</td>
+		</tr>
+	</table>
+	</center>
+	</form>
+</div>
+</body>
+</html>

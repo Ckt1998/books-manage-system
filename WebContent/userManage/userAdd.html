@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>用户注册</title>
+<style type="text/css">
+#useradd{
+	text-align:center;
+	background-color:#FFD0A2;
+	border-radius: 20px; 
+	width: 320px; 
+	height: 300px; 
+	margin: auto; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+}
+</style>
+</head>
+<body background="pic/bg.jpg">
+<div id="useradd">
+	<form action="userAddCheck.jsp" method="post">
+	<h2>用户注册</h2><br>
+	<center>
+	<table>
+	<tr>
+		<td>用户名：</td><td><input type="text" name="username"></td>
+	</tr>
+	<tr>
+		<td>密码：</td><td><input type="password" name="pws"></td>
+	</tr>
+	<tr>
+		<td>确认密码：</td><td><input type="password" name="pws1"></td>
+	</tr>
+	<tr>
+		<td>电话：</td><td><input type="text" name="pho"></td>
+	</tr>
+	<tr>
+		<td>地址：</td><td><input type="text" name="addr"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<br>
+			<input type="submit" value="添加">
+		</td>
+	</tr>
+	</table>
+	</center>
+	</form>
+</div>
+</body>
+</html>
