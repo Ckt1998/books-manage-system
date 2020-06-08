@@ -1,2 +1,2 @@
-# -
-jsp+MySQL图书管理系统
+# books-manage-system
+jsp+SQL server网上书店管理系统
